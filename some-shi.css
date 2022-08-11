@@ -36,13 +36,13 @@ body {
     .container {
         width: 100vw;
         height: 100vh;
-        background-color:rgb(120, 55, 182);
+        background-color:gray;
     }
     .navigation {
     padding: 20px;
     width: 15vw;
     height: 100vh;
-    background-color: rgb(141, 70, 207);
+    background-color: white;
     display: flex;
     justify-content: end;
     }
@@ -50,7 +50,7 @@ body {
         width: 60px;
         height: 60px;
         cursor: pointer;
-        background-color: rgb(141, 70, 207);
+        background-color:gray;
         transition-duration: 13s;
     }
     .bar {
@@ -58,7 +58,7 @@ body {
         height: 5px;
         background-color: white;
         margin: 10px auto;
-        box-shadow: 0px 5px 55px 10px red;
+        box-shadow: 0px 5px 55px 10px goldenrod;
     }
     .menu:hover .ih {
         transform: translateY(7.5px) rotateZ(45deg);
