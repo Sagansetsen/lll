@@ -50,7 +50,7 @@ body {
         width: 60px;
         height: 60px;
         cursor: pointer;
-        background-color:gray;
+        
         transition-duration: 13s;
     }
     .bar {
@@ -61,13 +61,13 @@ body {
         box-shadow: 0px 5px 55px 10px goldenrod;
     }
     .menu:hover .ih {
-        transform: translateY(7.5px) rotateZ(45deg);
+        transform: translateY(7.5px) rotateY(45deg);
     }
     .menu:hover .dund { 
-     transform: translateY(-7.5px) rotateZ(-45deg);}
+     transform: translateY(-7.5px) rotateY(-45deg);}
     
     .menu:hover .baga {
-     width: 0px;
+        transform: translateY(-7.5px) rotateY(-45deg);
     }
     .ne-vkusno-menu {
         width: 70%;
@@ -80,7 +80,7 @@ body {
       transition:all 2s ease-out 1s ;
     }
     .vkusno-menu{
-        color:green;
+        color:gold;
         font-size: 20px;
         font-family: -apple-system,blinkMacSystemFont,'Segoe UI' , Roboto,Oxygen, Ubuntu, Cantarell, 'Open Sans' , 'Helvetica Neue'sans-serif;
         text-decoration:none;
@@ -90,3 +90,4 @@ body {
         z-index: 0;
         cursor: pointer;
     }
+ 
