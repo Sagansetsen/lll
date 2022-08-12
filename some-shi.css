@@ -65,3 +65,9 @@
           justify-content: center;
           transition: all 2s ease-out 1s ;
         }
+        .menu:hover .vkusno-menu{
+            transform: translateY(7.5px) rotateZ(45deg);
+            transition: 1s;
+            width: 50px;
+            height: 6px;
+        }
