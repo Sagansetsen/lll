@@ -31,7 +31,7 @@
         }
         .menu:hover .dund{
             transform: translateY(-7.5px) rotateZ(-45deg);
-            transition: 1s;
+            transition: 0.5s;
             width: 50px;
             height: 6px;
         }
@@ -49,7 +49,7 @@
             width: 70%;
             height: 50px;
         }
-        .vkusno-menu {
+        .vkusno-menu1 {
            color: white;
            font-size: 20px;
            text-decoration: none;
@@ -58,16 +58,44 @@
            position: relative;
            cursor:pointer;
            z-index: 0;
-        
+           
         }
+
+        .vkusno-menu2 {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            margin: 20px 30px;
+            padding: 10px 10px;
+            position: relative;
+            cursor:pointer;
+            z-index: 0;
+        }
+
+        .vkusno-menu3 {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            margin: 20px 30px;
+            padding: 10px 10px;
+            position: relative;
+            cursor:pointer;
+            z-index: 0;
+        }
+
         .menu:hover .vkusno-menu {
           align-items: center;
           justify-content: center;
           transition: all 2s ease-out 1s ;
+          transform: translateY(7.5px) rotateZ(45deg);
+         transition: 1s;
+         width: 50px;
+         height: 6px;
         }
-        .menu:hover .vkusno-menu{
-            transform: translateY(7.5px) rotateZ(45deg);
-            transition: 1s;
-            width: 50px;
-            height: 6px;
+               
+        .menu:hover .vkusno-menu1{
+            transform: rotate(40deg) 
+            translate(5s)
+           
+           
         }
